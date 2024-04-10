@@ -1,0 +1,146 @@
+body {
+  background-color: rgb(35, 36, 42);
+}
+
+.detail-small-poster {
+  width: 20%;
+  height: 400px;
+}
+
+.detail-page {
+  padding: 20px;
+}
+
+.background-image {
+  width: 91%;
+  height: 460px;
+  object-fit: cover;
+  mask-image: linear-gradient(rgb(41, 44, 54), transparent);
+  -webkit-mask-image: linear-gradient(
+    270deg,
+    rgb(0, 0, 0) 35%,
+    transparent 80%
+  );
+  animation: zoomInOut 10s infinite alternate;
+  margin-left: 110px;
+}
+
+.background-container {
+  position: relative;
+}
+
+.background-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgb(45, 48, 56), rgba(0, 0, 0, 0));
+}
+/* .background-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, rgb(43, 45, 51), rgba(0, 0, 0, 0));
+
+} */
+.overview {
+  color: white;
+}
+.over-card {
+  margin-left: 0px;
+  width: 900px;
+}
+.content-container {
+  position: absolute;
+  bottom: 45px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+}
+.sub-card {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+}
+.venom {
+  color: rgb(246, 255, 0);
+  font-size: 25px;
+}
+.rating {
+  color: white;
+}
+.release-date {
+  color: white;
+}
+.time {
+  color: white;
+}
+
+.detail-small-poster {
+  width: 200px;
+  height: 300px;
+  margin-right: 20px;
+  border: #9a9b9d 1px solid;
+}
+
+.text-container {
+  color: #1a1818;
+  margin-top: 50px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-top: 30px;
+}
+
+.cast-item {
+  display: flex;
+  flex: wrap;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.see-more {
+  cursor: pointer;
+  color: #ffff;
+  text-align: end;
+}
+
+.see-more:hover {
+  text-decoration: underline;
+}
+.actor-name {
+  color: #ffff;
+}
+.char {
+  color: #ffff;
+}
+
+.cast {
+  margin-top: 20px;
+  font-size: 25px;
+  color: #ffff;
+}
+.actor-card {
+  margin-right: 30px;
+}
+.detail-name-card {
+  margin-left: -80px;
+}

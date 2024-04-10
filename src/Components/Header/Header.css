@@ -1,0 +1,39 @@
+.header-card {
+  background-color: rgb(61, 62, 71);
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.movie-heading {
+  font-size: 12px;
+  font-style: Poppins;
+  padding-left: 50px;
+}
+
+.movie {
+  font-size: 16px;
+  color: aliceblue;
+}
+.movie:active {
+  color: rgb(5, 255, 243); /* Change to the desired color */
+}
+
+.header-inner-card {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-right: 60px;
+}
+.search {
+  padding: 4px 6px 4px 6px;
+  height: 38px;
+  width: 80px;
+  color: white;
+  font-size: 12px;
+  border-radius: 6px;
+  border-width: 0px;
+  background-color: dimgray;
+  margin-top: 4px;
+  margin-left: 10px;
+}

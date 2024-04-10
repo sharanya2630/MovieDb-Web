@@ -1,0 +1,40 @@
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(35, 36, 42);
+  padding: 50px 30px 50px 30px;
+}
+
+.movie-card {
+  width: 23%;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.movie-poster {
+  width: 80%;
+  height: auto;
+  border: 1px rgb(103, 103, 103) solid;
+  color: #0effdf;
+}
+
+.movie-details {
+  width: 50%;
+  margin-left: 70px;
+}
+
+.movie-title {
+  margin-top: 10px;
+  font-size: 13px;
+  font-family: Poppins;
+  text-align: center;
+  color: beige;
+}
+
+.movie-average-vote {
+  font-size: 12px;
+  color: beige;
+  margin-bottom: 5px;
+  text-align: center;
+}

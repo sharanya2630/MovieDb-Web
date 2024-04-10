@@ -1,0 +1,50 @@
+.search-main-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 30px 50px 30px 50px;
+}
+
+.search-results-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-result-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-poster {
+  width: 150px;
+  height: 225px;
+  margin-right: 20px;
+}
+
+.search-text-card {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.search-movie-title {
+  margin-top: 0;
+  color: rgb(255, 243, 79);
+  font-size: 25px;
+}
+
+.search-rating {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.search-overview {
+  margin-top: 16px;
+  color: white;
+}
+.no-results{
+    color: white;
+    font-size: 20px;
+}
