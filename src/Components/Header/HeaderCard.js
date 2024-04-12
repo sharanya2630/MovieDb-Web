@@ -16,8 +16,9 @@ function HeaderCard() {
       <div className="header-card">
         <div className="movie-heading">
           <Link to="/">
-            <h1 className="movie">Movie <span style={{color:"#0effdf"}}>Db</span></h1>
-            
+            <h1 className="movie">
+              MOVIE <span style={{ color: "#0effdf" }}>DB</span>
+            </h1>
           </Link>
         </div>
         <div className="header-inner-card">

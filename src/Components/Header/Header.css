@@ -6,13 +6,13 @@
   justify-content: space-between;
 }
 .movie-heading {
-  font-size: 12px;
+  font-size: 15px;
   font-style: Poppins;
   padding-left: 50px;
 }
 
 .movie {
-  font-size: 16px;
+  font-size: 20px;
   color: aliceblue;
 }
 .movie:active {

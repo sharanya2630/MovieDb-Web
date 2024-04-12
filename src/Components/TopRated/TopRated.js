@@ -26,15 +26,17 @@ const TopRated = () => {
         {movies.map((movie) => (
           <div key={movie.id} className="movie-card">
             <Link to={`/movie/${movie.id}`} key={movie.id}>
-            <img
-              src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-              alt={movie.title}
-              className="movie-poster"
-            />
+              <img
+                src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+                alt={movie.title}
+                className="movie-poster"
+              />
             </Link>
             <div className="movie-details">
-              <h1 style={{color:"yellow", fontSize:"16px"}}>{movie.title}</h1>
-              <p style={{color:"white", fontSize:"16px"}}>Rating: {movie.vote_average}</p>
+              <h1 className="movie-title ">
+                {movie.title}
+              </h1>
+              <p className="movie-average-vote">Rating: {movie.vote_average}</p>
             </div>
           </div>
         ))}

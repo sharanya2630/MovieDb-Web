@@ -32,11 +32,13 @@ const TopRated = () => {
             />
           </Link>
           <div className="movie-details">
-            <h1 style={{ color: "yellow", fontSize: "16px" }}>{movie.title}</h1>
-            <p style={{ color: "white", fontSize: "16px" }}>
-              Rating: {movie.vote_average}
-            </p>
-          </div>
+            <h1 className="movie-title ">
+                {movie.title}
+              </h1>
+              <p className="movie-average-vote">Rating:
+             {movie.vote_average}
+              </p>
+            </div>
         </div>
       ))}
     </div>
